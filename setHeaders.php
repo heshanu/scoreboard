@@ -1,5 +1,5 @@
 <?php
-$xml = simplexml_load_file("scoreboard.xml"); // Replace 'data.xml' with the path to your XML file
+$xml = simplexml_load_file("scoreboard.xml");
 
 if (isset($xml)) {
     echo "<h2>" . $xml->team->matchWithANB->title."</h2>";
