@@ -53,17 +53,7 @@
                 }
             });
 
-            $.ajax({
-                url: 'setHeaders.php',
-                type: 'GET',
-                success: function(data) {
-                    // Display the response from the server in the #headers element
-                    $('#headers').html(data);
-                },
-                error: function() {
-                    alert('Error occurred while processing your request.');
-                }
-            });
+
         })
     });
 </script>
